@@ -1,0 +1,62 @@
+.container {
+    text-align: center;
+    align-items: center;
+
+    position: relative;
+    justify-content: center; /* 가운데 정렬을 위해 justify-content를 center로 설정 */
+
+    width: 100%; /* 필요에 따라 너비를 조정하세요 */
+    max-width: 1200px; /* 최대 너비 설정 (예시) */
+    margin: 0 auto; /* 좌우 여백을 auto로 설정하여 가운데 정렬 */
+}
+
+.logo {
+    width: 150px;
+    margin-right: 10px; /* 로고와 검색창 사이의 간격을 조절합니다 */
+}
+
+.search-box{
+    height: 30px;
+    width: 500px;
+    background: white;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid #001aff;
+    text-align: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.search-txt{
+    position: relative;
+    vertical-align: middle;
+    border:none;
+    background:none;
+    outline: none;
+    float: left;
+    padding: 7px;
+    color:#797979;
+    font-size:16px;
+    line-height: height 30px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.search-btn{
+    color: #001aff;
+    float: right;
+    width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    background: white;
+    border: none;
+    font-size:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todays-found{
+    border: 1px;
+    color: gray;
+}
